@@ -1,0 +1,79 @@
+*{
+    padding: 0px;
+    margin: 0px;
+box-sizing: border-box;
+}
+body{
+    background-image: url(gadget.img.png);
+    background-attachment: fixed;
+    background-size: cover;
+}
+h1{
+    float: right;
+    margin-right:650px;
+    margin-top: 100px;
+color: white;
+}
+.container{
+    padding-top: 200px;
+    max-width: 300px;
+    justify-content: center;
+    margin: 0px auto;
+    display: flex table-column;
+}
+form .name {
+    padding: 13px;
+    border-radius: 15px;
+border-style: none; 
+background-color: rgba(255,255,255,0.5);
+padding-right: 50px;
+width: 270px;
+}
+form .Email{
+    padding: 13px;
+    border-radius: 15px;
+border-style: none; 
+background-color: rgba(255,255,255,0.5);
+padding-right: 50px;
+width: 270px;
+}
+.password{
+    padding: 13px;
+    border-radius: 15px;
+border-style: none;
+background-color: rgba(255,255,255,0.5);
+padding-right: 50px;
+margin-top: 5px;
+width: 270px;
+}
+form button{
+    padding: 13px;
+    border-radius: 15px;
+border-style: none; 
+background-color: #2a2a2a;
+width: 150px;
+color: white;
+margin-top: 20px;
+text-align: center;
+margin-left: 70px;
+
+display: flex;
+justify-content: center;
+}
+form p{
+    display: flex;
+    white-space: nowrap;
+    margin-right: 40px;
+    gap: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+form a{
+    text-decoration: none;
+
+}
+form .search{
+display: flex;
+align-items: center;
+margin-bottom: 10px;
+}
